@@ -1,0 +1,53 @@
+.corsivoH1 {
+    font-family: "Edu NSW ACT Cursive";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.corsivoP {
+    font-family: "Edu NSW ACT Cursive";
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.maxWidthP {
+    max-width: 75%;
+}
+
+/* .form {
+    box-shadow: 3px 3px grey;
+    background-color: #ecb34f;
+    width: 50%;
+    height: 50%;
+} */
+
+.background1 {
+    background: url(./diary.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    height: 75vh;
+}
+
+.imageOverlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navCustom {
+    height: 6.5rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .maxWidthP {
+        max-width: none;
+    }
+}
