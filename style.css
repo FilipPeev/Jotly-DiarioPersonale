@@ -43,11 +43,26 @@
     height: 6.5rem;
 }
 
+.img-col-6 {
+    height: 100%;
+    width: 100%;
+}
+
+/* .grid {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */
 
 @media screen and (max-width: 768px) {
-
 
     .maxWidthP {
         max-width: none;
     }
+
+    .img-col-6 {
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+    }
+
 }
